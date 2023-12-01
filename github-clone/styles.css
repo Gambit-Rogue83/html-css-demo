@@ -1,31 +1,94 @@
-/*
-    charcoal background: #2D333B
-    black background: #22272E
-    outlines: #444C56
-    off white text: #CDD9E5
-    light gray text: #ACB9C6
-    orange underline: #EC775C
-    blue repo name: #539BF5
-    yellow JavaScript circle: #F1E05A
-    redorange HTML circle: #E34C26
-*/
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    background-color: orange;
+    align-items: center;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
 
-/*GLOBAL*/
+nav {
+    display: flex;
+    gap: 10px
+}
+
+html {
+    background-color: cadetblue;
+}
+
+* {
+    color: blanchedalmond;
+}
+
+main {
+    padding: 16px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.snapshot {
+    width: 400px;
+    height: 350px;
+    background-color: rgb(143, 142, 142);
 
 
-/*HEADER*/
+}
 
+.snapshot-img {
+    width: 100%;
+}
 
-/*MAIN*/
+.snap-right {
+    text-align: right;
+    position: relative;
+    top: -25px;
+    padding-right: 5px;
+}
 
+.snap-header {
+    padding-left: 5px;
+}
 
-/*REPO NAV*/
+.price {
+    position: relative;
+    top: -25px;
+    padding-left: 5px;
+}
 
+.claim {
+    position: relative;
+    top: -10px;
+    left: 5px;
+    background-color: rgb(42, 42, 141);
+}
 
-/*CONTAINER*/
+.snapshot-lower {
+    display: flex;
+    flex-direction: column;
+}
 
-
-/*LEFT PROFILE*/
-
-
-/*RIGHT REPOS*/
+#snapshot-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
